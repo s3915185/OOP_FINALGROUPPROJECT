@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="coverPane" prefHeight="720.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.loadingScreenController">
+   <children>
+      <ImageView fx:id="backImage" fitHeight="768.0" fitWidth="1287.0" layoutX="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rollingCircle" fitHeight="500.0" fitWidth="500.0" layoutX="405.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true" translateY="-30.0">
+         <image>
+            <Image url="@../Image/circle.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rmitLogo" fitHeight="500.0" fitWidth="500.0" layoutX="15.0" layoutY="-138.0" pickOnBounds="true" preserveRatio="true" translateX="390.0" translateY="350.0">
+         <image>
+            <Image url="@../Image/loadingScreen.png" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <effect>
+            <Lighting diffuseConstant="2.0">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <ImageView fx:id="text" fitHeight="500.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true" translateY="340.0">
+         <image>
+            <Image url="@../Image/text.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,66 @@
+.primary-parent{
+    -fx-background-color:  WHITE;
+}
+
+.secondary-pane{
+    -fx-background-color:  #eff0f0;
+    -fx-background-radius: 15 15 15 15;
+}
+
+.button-cate{
+    -fx-background-color:   #0C374D;
+    -fx-background-radius :  30 30 30 30;
+    -fx-text-fill: WHITE;
+}
+
+.button-cate:hover{
+    -fx-background-radius :  30 30 30 30;
+    -fx-background-color:  ORANGE;
+}
+
+.button-cate:pressed{
+    -fx-background-radius :  30 30 30 30;
+    -fx-background-color:  ORANGE;
+    -fx-text-fill: BLACK;
+}
+
+.label{
+    -fx-text-fill: BLACK;
+}
+
+.text{
+    -fx-text-fill: WHITE;
+}
+
+.title_font{
+    -fx-text-fill: WHITE;
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+.description_font{
+    -fx-text-fill: WHITE;
+    -fx-font-size: 12;
+}
+
+.line{
+    -fx-stroke: BLACK;
+}
+
+.btnBack{
+    -fx-background-color:  #0C374D;
+    -fx-text-fill: WHITE
+}
+
+.top_news_background {
+    -fx-background-color: rgb(16,16,16,0.5)
+}
+
+.btnBack:hover{
+    -fx-background-color:  ORANGE;
+    -fx-text-fill: white;
+}
+
+.split-pane-divider {
+   -fx-background-color: transparent;
+}
